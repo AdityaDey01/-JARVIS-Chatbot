@@ -103,7 +103,7 @@ def wishMe():
     day = cal_day()
 
     if(hour>=0) and (hour<=12) and ('AM' in t):
-        speak(f"Good morning Aditya, it's {day} and the time is {t}")
+        speak(f"Good morning Adi, it's {day} and the time is {t}")
     elif(hour>=12)  and (hour<=16) and ('PM' in t):
         speak(f"Good afternoon Aditya, it's {day} and the time is {t}")
     else:
